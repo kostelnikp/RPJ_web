@@ -1,0 +1,243 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: Catamaran;
+    src: url("Fonts/Catamaran-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Cormorant;
+    src: url("Fonts/Cormorant/Cormorant-Italic.otf");
+}
+
+
+.flex-container-header
+{
+    background-color: #FAF0E1;
+    width: 100%;
+    height: 3em;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: serif Catamaran;
+    font-size: 10px;
+    letter-spacing: 0.15rem;
+}
+
+.flex-container-header li
+{
+    padding-right: 6em;
+}
+
+.flex-container-navbar
+{
+    width: 100%;
+    height: 3.4375em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: serif Catamaran;
+    letter-spacing: 0.2em;
+    margin-bottom: 1.875em;
+}
+
+.flex-container-navbar-left
+{
+    font-size: 1.25em;
+    padding: 1.25em 0 1.25em 1.875em;
+}
+
+.flex-container-navbar-left a
+{
+   padding: 1.25em;
+}
+
+.flex-container-navbar-right
+{
+    font-size: 10px;
+    font-weight: bold;
+    padding: 1.25em 6em 1.25em 0;
+}
+.flex-container-navbar-right p
+{
+   display: inline;
+}
+
+.flex-container-model
+{
+    display: flex;
+    justify-content: space-around;
+    transform: scale(0.94);
+}
+
+.flex-container-body-header
+{
+    padding-left: 15em;
+    margin: 0;
+    font-family: serif Catamaran;
+    position: absolute;
+    top: 42.5em;
+}
+.flex-container-body-header p
+{
+    font-size: 6em;
+
+}
+.flex-container-body-text
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 8em 0 8em 0;
+    text-align: center;
+}
+
+h2
+{
+    width: 100%;
+    text-align: center;
+    font-family: Cormorant serif;
+    padding-bottom: 2em;
+}
+
+
+.flex-container-body-map-outer
+{
+    width: 70%;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 6em;
+    position: relative;
+}
+
+.flex-container-body-map
+{
+    transform: scale(0.8);
+}
+
+.flex-container-footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #060606;
+    width: 100%;
+    height: 652px;
+}
+
+.flex-container-footer-left
+{
+    width: 30%;
+    height: 70%;
+    color: #FAF0E1;
+    margin: 98px 1em 98px 0;
+    text-align: center;
+    border-right: solid #FAF0E1 1px;
+
+}
+.flex-container-footer-left-icons
+{
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+}
+
+.flex-container-footer-right
+{
+    width: 30%;
+    height: 70%;
+    color: #FAF0E1;
+    margin: 98px 1em 98px 0;
+
+}
+.flex-container-footer-right h3
+{
+
+    padding-left: 50px;
+}
+.flex-container-footer-right ul
+{
+
+    padding: 50px 0 0 50px;
+}
+
+.flex-container-footer-right li
+{
+
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+
+.flex-container-footer-picture
+{
+    width: 40%;
+    height: 70%;
+    text-align: center;
+    color: #FAF0E1;
+    justify-self: center;
+}
+
+.flex-container-footer-picture img
+{
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: calc(70% / 2.5);
+
+}
+
+
+
+
