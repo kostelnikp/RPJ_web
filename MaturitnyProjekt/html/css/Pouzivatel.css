@@ -1,0 +1,45 @@
+nav.navigation a {
+    margin: auto;
+}
+
+div.disable.hide
+{
+    display: none;
+}
+
+
+div.form-inline select
+{
+    margin: 10px;
+}
+
+div.form-inline button
+{
+    margin: 10px;
+}
+
+@media only screen and (min-width: 991px) {
+
+    nav.navigation  {
+        width: 100%;
+        justify-content: flex-end;
+        margin: unset;
+    }
+    nav.navigation a
+    {
+        margin: 0;
+    }
+    .row
+    {
+        margin: 0 auto;
+        width: 80%;
+    }
+    .disable
+    {
+        width: 100%;
+
+
+    }
+
+
+}

@@ -1,0 +1,38 @@
+[
+{"type":"header","version":"5.1.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"ziadosti_o_prijatie"},
+{"type":"table","name":"ziak","database":"ziadosti_o_prijatie","data":
+[
+{"id_ziak":"1","meno":"Peter","priezvisko":"Kostelník","rocnik":"4","trieda":"B","adresa_bydliska":"Partizánska 24","mesto_bydliska":"Bardejov","psc":"8501","vzdialenost_od_internatu":"45","datum":"2022-03-05 11:56:13"},
+{"id_ziak":"2","meno":"Simon","priezvisko":"Candik","rocnik":"4","trieda":"C","adresa_bydliska":"Orlicka","mesto_bydliska":"Vysny Orlik","psc":"8541","vzdialenost_od_internatu":"60","datum":"2022-03-05 13:43:26"},
+{"id_ziak":"3","meno":"Adam","priezvisko":"Kuchar","rocnik":"5","trieda":"C","adresa_bydliska":"Prostejovska","mesto_bydliska":"Presov","psc":"4517","vzdialenost_od_internatu":"5","datum":"2022-03-05 11:56:13"},
+{"id_ziak":"4","meno":"Viktor","priezvisko":"Petrik","rocnik":"1","trieda":"A","adresa_bydliska":"Random","mesto_bydliska":"Random","psc":"42165","vzdialenost_od_internatu":"45","datum":"2022-03-05 11:56:13"},
+{"id_ziak":"5","meno":"Milan","priezvisko":"Petrik","rocnik":"1","trieda":"A","adresa_bydliska":"Random","mesto_bydliska":"Random","psc":"75421","vzdialenost_od_internatu":"45","datum":"2022-03-05 11:56:13"},
+{"id_ziak":"6","meno":"Jakub","priezvisko":"Šebest","rocnik":"4","trieda":"B","adresa_bydliska":"Školská 15","mesto_bydliska":"Podolínec","psc":"6503","vzdialenost_od_internatu":"87","datum":"2022-03-05 11:56:13"},
+{"id_ziak":"7","meno":"Jozef","priezvisko":"Kovalčín","rocnik":"4","trieda":"B","adresa_bydliska":"Random","mesto_bydliska":"Random","psc":"8501","vzdialenost_od_internatu":"12","datum":"2022-03-05 11:56:13"},
+{"id_ziak":"8","meno":"Martin","priezvisko":"Jakab","rocnik":"4","trieda":"B","adresa_bydliska":"Maliarska 24","mesto_bydliska":"Prešov","psc":"4598","vzdialenost_od_internatu":"48","datum":"2022-03-05 11:56:13"},
+{"id_ziak":"9","meno":"Martin","priezvisko":"Jurek","rocnik":"2","trieda":"B","adresa_bydliska":"Gorlická 5","mesto_bydliska":"Prešov","psc":"4697","vzdialenost_od_internatu":"44","datum":"2022-03-05 11:56:13"},
+{"id_ziak":"10","meno":"Laszlo","priezvisko":"Múdry","rocnik":"3","trieda":"SA","adresa_bydliska":"Jurecká 14","mesto_bydliska":"Giraltovce","psc":"8541","vzdialenost_od_internatu":"58","datum":"2022-03-05 11:56:13"},
+{"id_ziak":"11","meno":"Imrich","priezvisko":"Velky","rocnik":"2","trieda":"B","adresa_bydliska":"Petrova 24","mesto_bydliska":"Kosice","psc":"4105","vzdialenost_od_internatu":"45","datum":"2022-03-05 11:57:19"},
+{"id_ziak":"12","meno":"Random","priezvisko":"Random","rocnik":"4","trieda":"1","adresa_bydliska":"Random","mesto_bydliska":"Random","psc":"8545","vzdialenost_od_internatu":"45","datum":"2022-03-05 14:12:23"},
+{"id_ziak":"13","meno":"Random","priezvisko":"Random","rocnik":"4","trieda":"1","adresa_bydliska":"Random","mesto_bydliska":"Random","psc":"8545","vzdialenost_od_internatu":"45","datum":"2022-03-05 14:12:45"},
+{"id_ziak":"14","meno":"Random","priezvisko":"Random","rocnik":"4","trieda":"1","adresa_bydliska":"Random","mesto_bydliska":"Random","psc":"8545","vzdialenost_od_internatu":"45","datum":"2022-03-05 14:13:45"},
+{"id_ziak":"15","meno":"Random","priezvisko":"Random","rocnik":"4","trieda":"1","adresa_bydliska":"Random","mesto_bydliska":"Random","psc":"8545","vzdialenost_od_internatu":"45","datum":"2022-03-05 14:14:03"},
+{"id_ziak":"16","meno":"Peter ","priezvisko":"Rus","rocnik":"4","trieda":"C","adresa_bydliska":"Ada","mesto_bydliska":"fsf","psc":"54505","vzdialenost_od_internatu":"55","datum":"2022-03-05 14:22:08"},
+{"id_ziak":"17","meno":"Peter ","priezvisko":"Rus","rocnik":"2","trieda":"A","adresa_bydliska":"Ada","mesto_bydliska":"fsf","psc":"54505","vzdialenost_od_internatu":"55","datum":"2022-03-05 14:22:50"},
+{"id_ziak":"18","meno":"Peter ","priezvisko":"Rus","rocnik":"2","trieda":"A","adresa_bydliska":"Ada","mesto_bydliska":"fsf","psc":"54505","vzdialenost_od_internatu":"55","datum":"2022-03-05 14:22:54"},
+{"id_ziak":"19","meno":"Peter ","priezvisko":"Rus","rocnik":"2","trieda":"A","adresa_bydliska":"Ada","mesto_bydliska":"fsf","psc":"54505","vzdialenost_od_internatu":"55","datum":"2022-03-05 14:23:27"},
+{"id_ziak":"20","meno":"Peter ","priezvisko":"Rus","rocnik":"2","trieda":"A","adresa_bydliska":"Ada","mesto_bydliska":"fsf","psc":"54505","vzdialenost_od_internatu":"55","datum":"2022-03-05 14:23:30"},
+{"id_ziak":"21","meno":"Peter ","priezvisko":"Rus","rocnik":"2","trieda":"A","adresa_bydliska":"Ada","mesto_bydliska":"fsf","psc":"54505","vzdialenost_od_internatu":"55","datum":"2022-03-05 14:29:30"},
+{"id_ziak":"22","meno":"Peter ","priezvisko":"Rus123","rocnik":"2","trieda":"A","adresa_bydliska":"Ada","mesto_bydliska":"fsf","psc":"54505","vzdialenost_od_internatu":"55","datum":"2022-03-05 14:30:00"},
+{"id_ziak":"23","meno":"Peter 00","priezvisko":"Rus123","rocnik":"2","trieda":"SC","adresa_bydliska":"Ada","mesto_bydliska":"fsf","psc":"54505","vzdialenost_od_internatu":"55","datum":"2022-03-05 14:30:06"},
+{"id_ziak":"24","meno":"Peter 00","priezvisko":"Rus123","rocnik":"2","trieda":"B","adresa_bydliska":"Ada","mesto_bydliska":"fsf","psc":"54505","vzdialenost_od_internatu":"55","datum":"2022-03-05 14:30:17"},
+{"id_ziak":"25","meno":"Peter 00","priezvisko":"Rus123","rocnik":"2","trieda":"F","adresa_bydliska":"Ada","mesto_bydliska":"fsf","psc":"54505","vzdialenost_od_internatu":"55","datum":"2022-03-05 14:30:23"},
+{"id_ziak":"26","meno":"Peter 00","priezvisko":"Rus123","rocnik":"2","trieda":"SB","adresa_bydliska":"Ada","mesto_bydliska":"fsf","psc":"54505","vzdialenost_od_internatu":"55","datum":"2022-03-05 14:30:32"},
+{"id_ziak":"27","meno":"fsdf","priezvisko":"fsfs","rocnik":"4","trieda":"A","adresa_bydliska":"dsfsdf","mesto_bydliska":"fsf","psc":"0","vzdialenost_od_internatu":"8501","datum":"2022-03-21 11:40:52"},
+{"id_ziak":"28","meno":"fsdf","priezvisko":"fsfs","rocnik":"4","trieda":"A","adresa_bydliska":"dsfsdf","mesto_bydliska":"fsf","psc":"0","vzdialenost_od_internatu":"8501","datum":"2022-03-21 11:43:09"},
+{"id_ziak":"29","meno":"fsdf","priezvisko":"fsfs","rocnik":"4","trieda":"A","adresa_bydliska":"dsfsdf","mesto_bydliska":"fsf","psc":"8501","vzdialenost_od_internatu":"8501","datum":"2022-03-21 11:46:44"},
+{"id_ziak":"30","meno":"fsdf","priezvisko":"fsfs","rocnik":"4","trieda":"A","adresa_bydliska":"dsfsdf","mesto_bydliska":"fsf","psc":"8501","vzdialenost_od_internatu":"8501","datum":"2022-03-21 11:47:04"}
+]
+}
+]

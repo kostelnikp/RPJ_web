@@ -1,0 +1,59 @@
+div.domov.hide
+{
+    display: none;
+}
+
+
+div.domov
+{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+
+div.text h2
+{
+    font-size: 30px;
+}
+
+div.text p
+{
+    padding: 50px 0 50px 0;
+}
+
+div.podtext p
+{
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+div.mapa
+{
+    overflow: hidden;
+    padding-bottom: 60%;
+    margin-bottom: 50px;
+    position: relative;
+    height: 0;
+}
+
+div.mapa iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+@media only screen and (min-width: 991px) {
+    div.domov
+    {
+        width: 65%;
+    }
+    div.text h2
+    {
+        font-size: 40px;
+    }
+}

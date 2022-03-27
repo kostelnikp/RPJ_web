@@ -1,0 +1,84 @@
+div.kontakt.hide
+{
+    display: none;
+}
+
+
+div.kontakt
+{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.kontaktmain h2
+{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+div.kontakt p
+{
+    padding: 50px 0 50px 0;
+}
+
+div.mapa
+{
+    overflow: hidden;
+    padding-bottom: 60%;
+    margin-bottom: 50px;
+    position: relative;
+    height: 0;
+}
+
+div.mapa iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+
+@media only screen and (min-width: 991px) {
+    div.kontakt
+    {
+        padding: 50px 0 0 0;
+        width: 80%;
+        flex-flow: row-reverse;
+        justify-content: space-around;
+    }
+    .kontaktmain h2
+    {
+        font-size: 40px;
+    }
+
+    div.mapa
+    {
+        margin-bottom: 0;
+        padding-bottom: 50%;
+    }
+
+    div.mapa iframe {
+        all: initial;
+        width: 600px;
+        height: 450px;
+    }
+    div.kontakt div:nth-child(1) p  {
+        text-align: left;
+        border-left: 1px solid black;
+        padding-left: 100px;
+        height: 450px;
+
+
+    }
+
+}
+
+
+
