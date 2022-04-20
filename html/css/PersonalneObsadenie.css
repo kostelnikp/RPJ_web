@@ -1,0 +1,52 @@
+div.personalneobsadeniemain.hide
+{
+    display: none;
+}
+
+div.personalneobsadenie
+{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: baseline;
+    padding: 50px 0 50px 0;
+    margin: 0 auto;
+}
+
+div.personalneobsadeniemain h2
+{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+div.personalneobsadenie table tr
+{
+    font-size: 10px;
+}
+div.personalneobsadenie table tr th
+{
+    padding: 5px;
+}
+
+div.personalneobsadenie table tr td
+{
+    padding: 10px 5px;
+}
+@media only screen and (min-width: 991px) {
+    div.personalneobsadenie table tr
+    {
+        font-size: 15px;
+    }
+
+    div.personalneobsadenie table tr th
+    {
+        padding: 5px 50px;
+    }
+
+    div.personalneobsadenie table tr td
+    {
+        padding: 10px 50px;
+    }
+
+}

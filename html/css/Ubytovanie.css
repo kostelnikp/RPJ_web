@@ -1,0 +1,101 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+
+div.ubytovanie.hide
+{
+    display: none;
+}
+
+div.ubytovanie
+{
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.ziak
+{
+    margin: 0 auto;
+}
+
+div.zakonnyzastupca
+{
+    margin: 0 auto;
+}
+
+div.ubytovanie h2
+{
+    text-align: center;
+    padding: 20px 0;
+}
+
+form
+{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: baseline;
+    text-align: center;
+}
+
+form h3
+{
+    padding: 20px 0;
+}
+
+form label
+{
+    width: 100%;
+}
+
+form input
+{
+    width: 50%;
+    margin: 10px 0;
+}
+
+.button
+{
+    margin: 0 auto;
+}
+
+form a
+{
+    margin: 0 auto;
+}
+
+
+@media only screen and (min-width: 991px) {
+    form
+    {
+        flex-flow: row;
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px 0;
+        flex-wrap: wrap;
+    }
+    .button
+    {
+        margin: 20px 100%;
+    }
+    a
+    {
+        margin: 0 auto;
+    }
+
+
+
+}
+
+
+
+
